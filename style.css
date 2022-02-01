@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 1) 95%
+    ),
+    url(braden-jarvis-prSogOoFmkw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  opacity: 0.95;
+}
+.navbar {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+.icon {
+  width: 100px;
+  float: left;
+  height: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+img {
+  width: 80px;
+  height: auto;
+}
+
+.nav-tabs {
+  width: 600px;
+  float: right;
+  height: 20px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+ul {
+  float: right;
+  display: flex;
+  justify-content: end;
+  align-items: right;
+}
+
+ul li .nav-link {
+  background: white;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  padding: 5px 15px 5px 15px;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 16px;
+}
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: green;
+}
+
+.center {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-size: 40px;
+  font-family: "roboto", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.btn1 {
+  background-color: white;
+  border: none;
+  border-radius: 55px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 30px 10px 30px;
+  font-family: "poppins", sans-serif;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.btn1:hover {
+  background-color: greenyellow;
+}
+.btn2 {
+  background-color: white;
+  border: none;
+  border-radius: 55px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 30px 10px 30px;
+  font-family: "poppins", sans-serif;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.btn2:hover {
+  background-color: greenyellow;
+}
