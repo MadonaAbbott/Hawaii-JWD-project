@@ -90,15 +90,15 @@ p {
 }
 
 .btn1 {
-  background-color: white;
-  border: none;
+  background: rgba(245, 245, 245, 0.349);
+  opacity: 0.9;
+  border: 1px solid white;
   border-radius: 55px;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  font-weight: bolder;
   padding: 10px 30px 10px 30px;
   font-family: "poppins", sans-serif;
   margin-right: 5px;
@@ -106,24 +106,23 @@ p {
 }
 
 .btn1:hover {
-  background-color: greenyellow;
+  background-color: rgb(114, 182, 12);
 }
 .btn2 {
-  background-color: white;
-  border: none;
+  background: rgba(245, 245, 245, 0.349);
+  opacity: 0.9;
+  border: 1px solid white;
   border-radius: 55px;
-  color: black;
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  font-weight: bolder;
   padding: 10px 30px 10px 30px;
   font-family: "poppins", sans-serif;
   margin-left: 5px;
   margin-top: 5px;
 }
-
 .btn2:hover {
-  background-color: greenyellow;
+  background-color: rgb(114, 182, 12);
 }
